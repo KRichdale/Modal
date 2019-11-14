@@ -1,5 +1,20 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+<displayCard title="Sophia" Img="1"/>
+<displayCard title="Mum" Img="2"/>
+<displayCard title="Dad" Img="3"/>
+
+
+
   </div>
 </template>
+
+<script>
+import displayCard from "../components/displayCard.vue"
+export default {
+  name: "about",
+  components:{
+    displayCard
+  }
+}
+</script>
